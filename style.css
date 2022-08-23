@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: #0081a7;
+    padding: 1rem;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 25%;
+}
+
+h2 {
+    margin: 2rem 0;
+}
+
+span {
+    float: right;
+}
+
+.stoicism-quote, .buddhism-quote, .existentialism-quote {
+    margin: 1rem 0;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.stoicism-quote {
+    font-family: 'Poppins', sans-serif;
+}
+
+.buddhism-quote {
+    font-family: 'Aboreto', cursive;
+}
+.existentialism-quote {
+    font-family: 'Playfair Display', serif;
+}
+
+footer {
+    width: 100%;
+    background-color: #0081a7;
+    padding: 1rem;
+    margin-top: 3rem;
+    color: #fff;
+}
+
+div:nth-child(2), div:nth-child(3), div:nth-child(4)  {
+    background-color: #fed9b7;
+}
+div:nth-child(6), div:nth-child(7), div:nth-child(8)  {
+    background-color: #fdfcdc;
+}
+div:nth-child(10), div:nth-child(11), div:nth-child(12)  {
+    background-color: #f07167;
+}
